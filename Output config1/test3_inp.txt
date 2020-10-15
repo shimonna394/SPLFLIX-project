@@ -1,0 +1,35 @@
+createuser Charlie rer
+createuser Shimi len
+changeuser Shimi
+watch 109
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+n
+watch 1
+n
+exit
+changeuser Charlie
+watch 109
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+n
+watch 1
+n
+exit
+
