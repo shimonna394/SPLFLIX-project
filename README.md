@@ -25,17 +25,18 @@ algorithm. After the user chooses to watch a content, a recommendation can be gi
 user for the next content.
 
 ## Technologies
-* C++ Standerd version.
+* C++ Standard version.
+* MakeFile.
 
 
 ## Launch
 Choose the config file you would like to run, and change it's name to config.json.</br> 
-There are two options available for you to choose from, that also can be used as tamplates to make a new config file.</br>
+There are two options available for you to choose from, that also can be used as templates to make a new config file.</br>
 #### In Windows open the cmd in the project directory and run the next commend:</br>
 #### Compile
 > g++ -g -Wall -c -Include src/main.cpp src/Action.cpp src/Session.cpp src/User.cpp src/Watchable.cpp </br>
 #### Build
-> g++ -o splflix.exe src/main.cpp src/Action.cpp src/Session.cpp src/User.cpp src/Watchable.cpp
+> g++ -o splflix.exe main.o Action.o Session.o User.o Watchable.o
 #### Run
 >  splflix.exe config.json </br> 
 #### In Linux open the terminal in the project directory and run the next commend:</br>
